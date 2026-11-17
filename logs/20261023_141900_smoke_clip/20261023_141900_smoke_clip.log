@@ -1,0 +1,44 @@
+2026-10-23 14:18:55 - INFO - Effective parameters:
+2026-10-23 14:18:55 - INFO -   <<< batch_size: 4
+2026-10-23 14:18:55 - INFO -   <<< beta1: 0.9
+2026-10-23 14:18:55 - INFO -   <<< beta2: 0.98
+2026-10-23 14:18:55 - INFO -   <<< checkpoint_path: /home/NPC/logs
+2026-10-23 14:18:55 - INFO -   <<< context_length: 64
+2026-10-23 14:18:55 - INFO -   <<< dataset: cc
+2026-10-23 14:18:55 - INFO -   <<< dataset_root: /home/data/CC120K
+2026-10-23 14:18:55 - INFO -   <<< dev_length: 1000
+2026-10-23 14:18:55 - INFO -   <<< device: auto
+2026-10-23 14:18:55 - INFO -   <<< display: 20
+2026-10-23 14:18:55 - INFO -   <<< epochs: 0
+2026-10-23 14:18:55 - INFO -   <<< eps: 1e-06
+2026-10-23 14:18:55 - INFO -   <<< eval: False
+2026-10-23 14:18:55 - INFO -   <<< eval_batch_size: 64
+2026-10-23 14:18:55 - INFO -   <<< experiments: 20261023_141900_smoke_clip
+2026-10-23 14:18:55 - INFO -   <<< local_rank: -1
+2026-10-23 14:18:55 - INFO -   <<< lr: 5e-07
+2026-10-23 14:18:55 - INFO -   <<< model_cache: /home/NPC/pre-trained_models
+2026-10-23 14:18:55 - INFO -   <<< name: CLIP-CC120K
+2026-10-23 14:18:55 - INFO -   <<< noise_ratio: 0.0
+2026-10-23 14:18:55 - INFO -   <<< num_anns: 1
+2026-10-23 14:18:55 - INFO -   <<< num_workers: 0
+2026-10-23 14:18:55 - INFO -   <<< resume: None
+2026-10-23 14:18:55 - INFO -   <<< seed: 99
+2026-10-23 14:18:55 - INFO -   <<< vision_model: ViT-B/32
+2026-10-23 14:18:55 - INFO -   <<< warmup: 500
+2026-10-23 14:18:55 - INFO -   <<< weight_decay: 0.2
+2026-10-23 14:19:03 - INFO - Model Initialized!
+2026-10-23 14:19:03 - INFO - ========== Initial the train_base set ==========
+2026-10-23 14:19:03 - INFO - Loading cc set.
+2026-10-23 14:19:03 - INFO - 118851 images have been loaded.
+2026-10-23 14:19:03 - INFO - 118851 captions have been loaded.
+2026-10-23 14:19:19 - INFO - 118851 images have been loaded.
+2026-10-23 14:19:19 - INFO - train_base set initialization completed!
+2026-10-23 14:19:19 - INFO - ========== Initial the dev set ==========
+2026-10-23 14:19:19 - INFO - Loading cc set.
+2026-10-23 14:19:19 - INFO - 1000 captions have been loaded.
+2026-10-23 14:19:19 - INFO - 1000 images have been loaded.
+2026-10-23 14:19:19 - INFO - dev set initialization completed!
+2026-10-23 14:19:19 - INFO - ***** Running training *****
+2026-10-23 14:19:19 - INFO -   Num examples = 118851
+2026-10-23 14:19:19 - INFO -   Batch size = 4
+2026-10-23 14:19:19 - INFO -   Num steps = 0

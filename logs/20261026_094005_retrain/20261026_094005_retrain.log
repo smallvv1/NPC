@@ -1,0 +1,204 @@
+2026-10-26 09:40:08 - INFO - Effective parameters:
+2026-10-26 09:40:08 - INFO -   <<< batch_size: 256
+2026-10-26 09:40:08 - INFO -   <<< beta1: 0.9
+2026-10-26 09:40:08 - INFO -   <<< beta2: 0.98
+2026-10-26 09:40:08 - INFO -   <<< checkpoint_path: /home/NPC/logs
+2026-10-26 09:40:08 - INFO -   <<< context_length: 64
+2026-10-26 09:40:08 - INFO -   <<< dataset: cc
+2026-10-26 09:40:08 - INFO -   <<< dataset_root: /home/data/CC120K
+2026-10-26 09:40:08 - INFO -   <<< dev_length: 1000
+2026-10-26 09:40:08 - INFO -   <<< device: auto
+2026-10-26 09:40:08 - INFO -   <<< display: 20
+2026-10-26 09:40:08 - INFO -   <<< epochs: 5
+2026-10-26 09:40:08 - INFO -   <<< eps: 1e-06
+2026-10-26 09:40:08 - INFO -   <<< eval: False
+2026-10-26 09:40:08 - INFO -   <<< eval_batch_size: 64
+2026-10-26 09:40:08 - INFO -   <<< experiments: 20261026_094005_retrain
+2026-10-26 09:40:08 - INFO -   <<< local_rank: -1
+2026-10-26 09:40:08 - INFO -   <<< lr: 2e-07
+2026-10-26 09:40:08 - INFO -   <<< model_cache: /home/NPC/pre-trained_models
+2026-10-26 09:40:08 - INFO -   <<< name: NPC-CC120K
+2026-10-26 09:40:08 - INFO -   <<< noise_ratio: 0.0
+2026-10-26 09:40:08 - INFO -   <<< num_anns: 1
+2026-10-26 09:40:08 - INFO -   <<< num_workers: 8
+2026-10-26 09:40:08 - INFO -   <<< resume: None
+2026-10-26 09:40:08 - INFO -   <<< seed: 99
+2026-10-26 09:40:08 - INFO -   <<< vision_model: ViT-B/32
+2026-10-26 09:40:08 - INFO -   <<< warmup: 500
+2026-10-26 09:40:08 - INFO -   <<< weight_decay: 0.2
+2026-10-26 09:40:16 - INFO - Model Initialized!
+2026-10-26 09:40:16 - INFO - ========== Initial the train set ==========
+2026-10-26 09:40:16 - INFO - Loading cc set.
+2026-10-26 09:40:16 - INFO - 118851 images have been loaded.
+2026-10-26 09:40:16 - INFO - 118851 captions have been loaded.
+2026-10-26 09:40:31 - INFO - 118851 images have been loaded.
+2026-10-26 09:40:31 - INFO - train set initialization completed!
+2026-10-26 09:40:31 - INFO - ========== Initial the dev set ==========
+2026-10-26 09:40:31 - INFO - Loading cc set.
+2026-10-26 09:40:31 - INFO - 1000 captions have been loaded.
+2026-10-26 09:40:31 - INFO - 1000 images have been loaded.
+2026-10-26 09:40:31 - INFO - dev set initialization completed!
+2026-10-26 09:40:31 - INFO - ***** Running training *****
+2026-10-26 09:40:31 - INFO -   Num examples = 118851
+2026-10-26 09:40:31 - INFO -   Batch size = 256
+2026-10-26 09:40:31 - INFO -   Num steps = 594255
+2026-10-26 09:41:14 - INFO - Epoch: 1/5, step:20/464, lr: 0.00000001, sloss: 6.968750, smbank_loss: 6.039062
+2026-10-26 09:41:40 - INFO - Epoch: 1/5, step:40/464, lr: 0.00000002, sloss: 6.582031, smbank_loss: 5.761719
+2026-10-26 09:42:06 - INFO - Epoch: 1/5, step:60/464, lr: 0.00000002, sloss: 6.425781, smbank_loss: 5.664062
+2026-10-26 09:42:32 - INFO - Epoch: 1/5, step:80/464, lr: 0.00000003, sloss: 6.214844, smbank_loss: 5.511719
+2026-10-26 09:42:57 - INFO - Epoch: 1/5, step:100/464, lr: 0.00000004, sloss: 6.203125, smbank_loss: 5.507812
+2026-10-26 09:43:23 - INFO - Epoch: 1/5, step:120/464, lr: 0.00000005, sloss: 6.082031, smbank_loss: 5.414062
+2026-10-26 09:43:49 - INFO - Epoch: 1/5, step:140/464, lr: 0.00000006, sloss: 6.085938, smbank_loss: 5.437500
+2026-10-26 09:44:14 - INFO - Epoch: 1/5, step:160/464, lr: 0.00000006, sloss: 6.015625, smbank_loss: 5.402344
+2026-10-26 09:44:39 - INFO - Epoch: 1/5, step:180/464, lr: 0.00000007, sloss: 5.968750, smbank_loss: 5.355469
+2026-10-26 09:45:05 - INFO - Epoch: 1/5, step:200/464, lr: 0.00000008, sloss: 5.898438, smbank_loss: 5.281250
+2026-10-26 09:45:30 - INFO - Epoch: 1/5, step:220/464, lr: 0.00000009, sloss: 5.820312, smbank_loss: 5.250000
+2026-10-26 09:45:56 - INFO - Epoch: 1/5, step:240/464, lr: 0.00000010, sloss: 5.730469, smbank_loss: 5.148438
+2026-10-26 09:46:22 - INFO - Epoch: 1/5, step:260/464, lr: 0.00000010, sloss: 5.750000, smbank_loss: 5.195312
+2026-10-26 09:46:47 - INFO - Epoch: 1/5, step:280/464, lr: 0.00000011, sloss: 5.757812, smbank_loss: 5.210938
+2026-10-26 09:47:12 - INFO - Epoch: 1/5, step:300/464, lr: 0.00000012, sloss: 5.683594, smbank_loss: 5.148438
+2026-10-26 09:47:38 - INFO - Epoch: 1/5, step:320/464, lr: 0.00000013, sloss: 5.710938, smbank_loss: 5.164062
+2026-10-26 09:48:04 - INFO - Epoch: 1/5, step:340/464, lr: 0.00000014, sloss: 5.636719, smbank_loss: 5.101562
+2026-10-26 09:48:29 - INFO - Epoch: 1/5, step:360/464, lr: 0.00000014, sloss: 5.570312, smbank_loss: 5.058594
+2026-10-26 09:48:55 - INFO - Epoch: 1/5, step:380/464, lr: 0.00000015, sloss: 5.554688, smbank_loss: 5.035156
+2026-10-26 09:49:20 - INFO - Epoch: 1/5, step:400/464, lr: 0.00000016, sloss: 5.531250, smbank_loss: 5.023438
+2026-10-26 09:49:46 - INFO - Epoch: 1/5, step:420/464, lr: 0.00000017, sloss: 5.582031, smbank_loss: 5.074219
+2026-10-26 09:50:11 - INFO - Epoch: 1/5, step:440/464, lr: 0.00000018, sloss: 5.523438, smbank_loss: 5.007812
+2026-10-26 09:50:37 - INFO - Epoch: 1/5, step:460/464, lr: 0.00000018, sloss: 5.433594, smbank_loss: 4.945312
+2026-10-26 09:50:42 - INFO - Saved checkpoint /home/NPC/logs/20261026_094005_retrain/epoch1.pt (epoch 1)
+2026-10-26 09:50:42 - INFO - Eval on val dataset
+2026-10-26 09:50:44 - INFO - step:0/16
+2026-10-26 09:50:45 - INFO - Image-to-Text:
+2026-10-26 09:50:45 - INFO - 	>>>  R@1: 71.40 - R@5: 91.00 - R@10: 94.90
+2026-10-26 09:50:45 - INFO - Text-to-Image:
+2026-10-26 09:50:45 - INFO - 	>>>  R@1: 70.50 - R@5: 90.20 - R@10: 94.60
+2026-10-26 09:50:45 - INFO - Mean R1: 70.95
+2026-10-26 09:50:45 - INFO - The best model is: /home/NPC/logs/20261026_094005_retrain/epoch1.pt, the R1 is: 70.9500
+2026-10-26 09:51:21 - INFO - Epoch: 2/5, step:20/464, lr: 0.00000018, sloss: 5.613281, smbank_loss: 5.250000
+2026-10-26 09:51:47 - INFO - Epoch: 2/5, step:40/464, lr: 0.00000018, sloss: 5.265625, smbank_loss: 4.910156
+2026-10-26 09:52:12 - INFO - Epoch: 2/5, step:60/464, lr: 0.00000018, sloss: 5.226562, smbank_loss: 4.882812
+2026-10-26 09:52:38 - INFO - Epoch: 2/5, step:80/464, lr: 0.00000018, sloss: 5.191406, smbank_loss: 4.851562
+2026-10-26 09:53:03 - INFO - Epoch: 2/5, step:100/464, lr: 0.00000018, sloss: 5.230469, smbank_loss: 4.867188
+2026-10-26 09:53:29 - INFO - Epoch: 2/5, step:120/464, lr: 0.00000018, sloss: 5.164062, smbank_loss: 4.839844
+2026-10-26 09:53:54 - INFO - Epoch: 2/5, step:140/464, lr: 0.00000018, sloss: 5.203125, smbank_loss: 4.855469
+2026-10-26 09:54:20 - INFO - Epoch: 2/5, step:160/464, lr: 0.00000018, sloss: 5.156250, smbank_loss: 4.804688
+2026-10-26 09:54:46 - INFO - Epoch: 2/5, step:180/464, lr: 0.00000018, sloss: 5.164062, smbank_loss: 4.816406
+2026-10-26 09:55:11 - INFO - Epoch: 2/5, step:200/464, lr: 0.00000018, sloss: 5.132812, smbank_loss: 4.796875
+2026-10-26 09:55:37 - INFO - Epoch: 2/5, step:220/464, lr: 0.00000018, sloss: 5.101562, smbank_loss: 4.773438
+2026-10-26 09:56:02 - INFO - Epoch: 2/5, step:240/464, lr: 0.00000018, sloss: 5.109375, smbank_loss: 4.804688
+2026-10-26 09:56:28 - INFO - Epoch: 2/5, step:260/464, lr: 0.00000018, sloss: 5.085938, smbank_loss: 4.765625
+2026-10-26 09:56:53 - INFO - Epoch: 2/5, step:280/464, lr: 0.00000018, sloss: 5.023438, smbank_loss: 4.710938
+2026-10-26 09:57:19 - INFO - Epoch: 2/5, step:300/464, lr: 0.00000018, sloss: 5.070312, smbank_loss: 4.738281
+2026-10-26 09:57:44 - INFO - Epoch: 2/5, step:320/464, lr: 0.00000018, sloss: 5.093750, smbank_loss: 4.765625
+2026-10-26 09:58:10 - INFO - Epoch: 2/5, step:340/464, lr: 0.00000018, sloss: 5.027344, smbank_loss: 4.718750
+2026-10-26 09:58:36 - INFO - Epoch: 2/5, step:360/464, lr: 0.00000018, sloss: 5.054688, smbank_loss: 4.726562
+2026-10-26 09:59:01 - INFO - Epoch: 2/5, step:380/464, lr: 0.00000018, sloss: 4.984375, smbank_loss: 4.664062
+2026-10-26 09:59:27 - INFO - Epoch: 2/5, step:400/464, lr: 0.00000018, sloss: 5.058594, smbank_loss: 4.726562
+2026-10-26 09:59:52 - INFO - Epoch: 2/5, step:420/464, lr: 0.00000018, sloss: 5.058594, smbank_loss: 4.707031
+2026-10-26 10:00:18 - INFO - Epoch: 2/5, step:440/464, lr: 0.00000018, sloss: 4.992188, smbank_loss: 4.664062
+2026-10-26 10:00:43 - INFO - Epoch: 2/5, step:460/464, lr: 0.00000018, sloss: 5.000000, smbank_loss: 4.679688
+2026-10-26 10:00:48 - INFO - Saved checkpoint /home/NPC/logs/20261026_094005_retrain/epoch2.pt (epoch 2)
+2026-10-26 10:00:48 - INFO - Eval on val dataset
+2026-10-26 10:00:50 - INFO - step:0/16
+2026-10-26 10:00:51 - INFO - Image-to-Text:
+2026-10-26 10:00:51 - INFO - 	>>>  R@1: 74.30 - R@5: 92.30 - R@10: 95.80
+2026-10-26 10:00:51 - INFO - Text-to-Image:
+2026-10-26 10:00:51 - INFO - 	>>>  R@1: 73.10 - R@5: 91.30 - R@10: 95.50
+2026-10-26 10:00:51 - INFO - Mean R1: 73.70
+2026-10-26 10:00:51 - INFO - The best model is: /home/NPC/logs/20261026_094005_retrain/epoch2.pt, the R1 is: 73.7000
+2026-10-26 10:01:27 - INFO - Epoch: 3/5, step:20/464, lr: 0.00000013, sloss: 5.054688, smbank_loss: 4.843750
+2026-10-26 10:01:52 - INFO - Epoch: 3/5, step:40/464, lr: 0.00000013, sloss: 4.843750, smbank_loss: 4.652344
+2026-10-26 10:02:18 - INFO - Epoch: 3/5, step:60/464, lr: 0.00000013, sloss: 4.808594, smbank_loss: 4.617188
+2026-10-26 10:02:43 - INFO - Epoch: 3/5, step:80/464, lr: 0.00000013, sloss: 4.800781, smbank_loss: 4.601562
+2026-10-26 10:03:09 - INFO - Epoch: 3/5, step:100/464, lr: 0.00000013, sloss: 4.816406, smbank_loss: 4.632812
+2026-10-26 10:03:34 - INFO - Epoch: 3/5, step:120/464, lr: 0.00000013, sloss: 4.773438, smbank_loss: 4.585938
+2026-10-26 10:04:00 - INFO - Epoch: 3/5, step:140/464, lr: 0.00000013, sloss: 4.828125, smbank_loss: 4.632812
+2026-10-26 10:04:25 - INFO - Epoch: 3/5, step:160/464, lr: 0.00000013, sloss: 4.777344, smbank_loss: 4.589844
+2026-10-26 10:04:51 - INFO - Epoch: 3/5, step:180/464, lr: 0.00000013, sloss: 4.746094, smbank_loss: 4.570312
+2026-10-26 10:05:16 - INFO - Epoch: 3/5, step:200/464, lr: 0.00000013, sloss: 4.777344, smbank_loss: 4.585938
+2026-10-26 10:05:42 - INFO - Epoch: 3/5, step:220/464, lr: 0.00000013, sloss: 4.800781, smbank_loss: 4.617188
+2026-10-26 10:06:07 - INFO - Epoch: 3/5, step:240/464, lr: 0.00000013, sloss: 4.765625, smbank_loss: 4.578125
+2026-10-26 10:06:33 - INFO - Epoch: 3/5, step:260/464, lr: 0.00000013, sloss: 4.742188, smbank_loss: 4.554688
+2026-10-26 10:06:58 - INFO - Epoch: 3/5, step:280/464, lr: 0.00000013, sloss: 4.750000, smbank_loss: 4.562500
+2026-10-26 10:07:24 - INFO - Epoch: 3/5, step:300/464, lr: 0.00000013, sloss: 4.750000, smbank_loss: 4.570312
+2026-10-26 10:07:49 - INFO - Epoch: 3/5, step:320/464, lr: 0.00000013, sloss: 4.679688, smbank_loss: 4.492188
+2026-10-26 10:08:15 - INFO - Epoch: 3/5, step:340/464, lr: 0.00000013, sloss: 4.664062, smbank_loss: 4.496094
+2026-10-26 10:08:40 - INFO - Epoch: 3/5, step:360/464, lr: 0.00000013, sloss: 4.769531, smbank_loss: 4.562500
+2026-10-26 10:09:06 - INFO - Epoch: 3/5, step:380/464, lr: 0.00000013, sloss: 4.718750, smbank_loss: 4.531250
+2026-10-26 10:09:31 - INFO - Epoch: 3/5, step:400/464, lr: 0.00000013, sloss: 4.707031, smbank_loss: 4.523438
+2026-10-26 10:09:57 - INFO - Epoch: 3/5, step:420/464, lr: 0.00000013, sloss: 4.664062, smbank_loss: 4.488281
+2026-10-26 10:10:23 - INFO - Epoch: 3/5, step:440/464, lr: 0.00000013, sloss: 4.667969, smbank_loss: 4.496094
+2026-10-26 10:10:48 - INFO - Epoch: 3/5, step:460/464, lr: 0.00000013, sloss: 4.710938, smbank_loss: 4.523438
+2026-10-26 10:10:53 - INFO - Saved checkpoint /home/NPC/logs/20261026_094005_retrain/epoch3.pt (epoch 3)
+2026-10-26 10:10:53 - INFO - Eval on val dataset
+2026-10-26 10:10:55 - INFO - step:0/16
+2026-10-26 10:10:56 - INFO - Image-to-Text:
+2026-10-26 10:10:56 - INFO - 	>>>  R@1: 72.70 - R@5: 91.90 - R@10: 95.90
+2026-10-26 10:10:56 - INFO - Text-to-Image:
+2026-10-26 10:10:56 - INFO - 	>>>  R@1: 71.40 - R@5: 92.10 - R@10: 95.60
+2026-10-26 10:10:56 - INFO - Mean R1: 72.05
+2026-10-26 10:10:56 - INFO - The best model is: /home/NPC/logs/20261026_094005_retrain/epoch2.pt, the R1 is: 73.7000
+2026-10-26 10:11:32 - INFO - Epoch: 4/5, step:20/464, lr: 0.00000007, sloss: 4.882812, smbank_loss: 4.738281
+2026-10-26 10:11:57 - INFO - Epoch: 4/5, step:40/464, lr: 0.00000007, sloss: 4.656250, smbank_loss: 4.523438
+2026-10-26 10:12:23 - INFO - Epoch: 4/5, step:60/464, lr: 0.00000007, sloss: 4.710938, smbank_loss: 4.578125
+2026-10-26 10:12:48 - INFO - Epoch: 4/5, step:80/464, lr: 0.00000007, sloss: 4.609375, smbank_loss: 4.472656
+2026-10-26 10:13:14 - INFO - Epoch: 4/5, step:100/464, lr: 0.00000007, sloss: 4.617188, smbank_loss: 4.488281
+2026-10-26 10:13:39 - INFO - Epoch: 4/5, step:120/464, lr: 0.00000007, sloss: 4.601562, smbank_loss: 4.472656
+2026-10-26 10:14:05 - INFO - Epoch: 4/5, step:140/464, lr: 0.00000007, sloss: 4.582031, smbank_loss: 4.437500
+2026-10-26 10:14:31 - INFO - Epoch: 4/5, step:160/464, lr: 0.00000007, sloss: 4.617188, smbank_loss: 4.492188
+2026-10-26 10:14:56 - INFO - Epoch: 4/5, step:180/464, lr: 0.00000007, sloss: 4.636719, smbank_loss: 4.507812
+2026-10-26 10:15:22 - INFO - Epoch: 4/5, step:200/464, lr: 0.00000007, sloss: 4.664062, smbank_loss: 4.539062
+2026-10-26 10:15:47 - INFO - Epoch: 4/5, step:220/464, lr: 0.00000007, sloss: 4.652344, smbank_loss: 4.519531
+2026-10-26 10:16:13 - INFO - Epoch: 4/5, step:240/464, lr: 0.00000007, sloss: 4.617188, smbank_loss: 4.496094
+2026-10-26 10:16:38 - INFO - Epoch: 4/5, step:260/464, lr: 0.00000007, sloss: 4.628906, smbank_loss: 4.492188
+2026-10-26 10:17:03 - INFO - Epoch: 4/5, step:280/464, lr: 0.00000007, sloss: 4.648438, smbank_loss: 4.507812
+2026-10-26 10:17:29 - INFO - Epoch: 4/5, step:300/464, lr: 0.00000007, sloss: 4.617188, smbank_loss: 4.476562
+2026-10-26 10:17:55 - INFO - Epoch: 4/5, step:320/464, lr: 0.00000007, sloss: 4.648438, smbank_loss: 4.507812
+2026-10-26 10:18:20 - INFO - Epoch: 4/5, step:340/464, lr: 0.00000007, sloss: 4.605469, smbank_loss: 4.468750
+2026-10-26 10:18:46 - INFO - Epoch: 4/5, step:360/464, lr: 0.00000007, sloss: 4.601562, smbank_loss: 4.476562
+2026-10-26 10:19:11 - INFO - Epoch: 4/5, step:380/464, lr: 0.00000007, sloss: 4.625000, smbank_loss: 4.488281
+2026-10-26 10:19:37 - INFO - Epoch: 4/5, step:400/464, lr: 0.00000007, sloss: 4.675781, smbank_loss: 4.546875
+2026-10-26 10:20:02 - INFO - Epoch: 4/5, step:420/464, lr: 0.00000007, sloss: 4.574219, smbank_loss: 4.441406
+2026-10-26 10:20:27 - INFO - Epoch: 4/5, step:440/464, lr: 0.00000007, sloss: 4.597656, smbank_loss: 4.464844
+2026-10-26 10:20:53 - INFO - Epoch: 4/5, step:460/464, lr: 0.00000007, sloss: 4.597656, smbank_loss: 4.464844
+2026-10-26 10:20:58 - INFO - Saved checkpoint /home/NPC/logs/20261026_094005_retrain/epoch4.pt (epoch 4)
+2026-10-26 10:20:58 - INFO - Eval on val dataset
+2026-10-26 10:21:00 - INFO - step:0/16
+2026-10-26 10:21:01 - INFO - Image-to-Text:
+2026-10-26 10:21:01 - INFO - 	>>>  R@1: 72.40 - R@5: 91.70 - R@10: 95.20
+2026-10-26 10:21:01 - INFO - Text-to-Image:
+2026-10-26 10:21:01 - INFO - 	>>>  R@1: 71.60 - R@5: 91.50 - R@10: 95.60
+2026-10-26 10:21:01 - INFO - Mean R1: 72.00
+2026-10-26 10:21:01 - INFO - The best model is: /home/NPC/logs/20261026_094005_retrain/epoch2.pt, the R1 is: 73.7000
+2026-10-26 10:21:38 - INFO - Epoch: 5/5, step:20/464, lr: 0.00000002, sloss: 4.851562, smbank_loss: 4.734375
+2026-10-26 10:22:03 - INFO - Epoch: 5/5, step:40/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.453125
+2026-10-26 10:22:29 - INFO - Epoch: 5/5, step:60/464, lr: 0.00000002, sloss: 4.593750, smbank_loss: 4.484375
+2026-10-26 10:22:54 - INFO - Epoch: 5/5, step:80/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.457031
+2026-10-26 10:23:20 - INFO - Epoch: 5/5, step:100/464, lr: 0.00000002, sloss: 4.582031, smbank_loss: 4.460938
+2026-10-26 10:23:45 - INFO - Epoch: 5/5, step:120/464, lr: 0.00000002, sloss: 4.628906, smbank_loss: 4.511719
+2026-10-26 10:24:11 - INFO - Epoch: 5/5, step:140/464, lr: 0.00000002, sloss: 4.601562, smbank_loss: 4.480469
+2026-10-26 10:24:36 - INFO - Epoch: 5/5, step:160/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.457031
+2026-10-26 10:25:02 - INFO - Epoch: 5/5, step:180/464, lr: 0.00000002, sloss: 4.593750, smbank_loss: 4.476562
+2026-10-26 10:25:27 - INFO - Epoch: 5/5, step:200/464, lr: 0.00000002, sloss: 4.585938, smbank_loss: 4.472656
+2026-10-26 10:25:53 - INFO - Epoch: 5/5, step:220/464, lr: 0.00000002, sloss: 4.621094, smbank_loss: 4.503906
+2026-10-26 10:26:18 - INFO - Epoch: 5/5, step:240/464, lr: 0.00000002, sloss: 4.605469, smbank_loss: 4.480469
+2026-10-26 10:26:44 - INFO - Epoch: 5/5, step:260/464, lr: 0.00000002, sloss: 4.628906, smbank_loss: 4.515625
+2026-10-26 10:27:09 - INFO - Epoch: 5/5, step:280/464, lr: 0.00000002, sloss: 4.617188, smbank_loss: 4.496094
+2026-10-26 10:27:34 - INFO - Epoch: 5/5, step:300/464, lr: 0.00000002, sloss: 4.632812, smbank_loss: 4.511719
+2026-10-26 10:28:00 - INFO - Epoch: 5/5, step:320/464, lr: 0.00000002, sloss: 4.593750, smbank_loss: 4.488281
+2026-10-26 10:28:25 - INFO - Epoch: 5/5, step:340/464, lr: 0.00000002, sloss: 4.589844, smbank_loss: 4.476562
+2026-10-26 10:28:51 - INFO - Epoch: 5/5, step:360/464, lr: 0.00000002, sloss: 4.593750, smbank_loss: 4.476562
+2026-10-26 10:29:17 - INFO - Epoch: 5/5, step:380/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.460938
+2026-10-26 10:29:42 - INFO - Epoch: 5/5, step:400/464, lr: 0.00000002, sloss: 4.542969, smbank_loss: 4.425781
+2026-10-26 10:30:08 - INFO - Epoch: 5/5, step:420/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.457031
+2026-10-26 10:30:33 - INFO - Epoch: 5/5, step:440/464, lr: 0.00000002, sloss: 4.593750, smbank_loss: 4.480469
+2026-10-26 10:30:59 - INFO - Epoch: 5/5, step:460/464, lr: 0.00000002, sloss: 4.570312, smbank_loss: 4.460938
+2026-10-26 10:31:04 - INFO - Saved checkpoint /home/NPC/logs/20261026_094005_retrain/epoch5.pt (epoch 5)
+2026-10-26 10:31:04 - INFO - Eval on val dataset
+2026-10-26 10:31:06 - INFO - step:0/16
+2026-10-26 10:31:07 - INFO - Image-to-Text:
+2026-10-26 10:31:07 - INFO - 	>>>  R@1: 72.70 - R@5: 91.70 - R@10: 95.30
+2026-10-26 10:31:07 - INFO - Text-to-Image:
+2026-10-26 10:31:07 - INFO - 	>>>  R@1: 72.00 - R@5: 91.60 - R@10: 95.50
+2026-10-26 10:31:07 - INFO - Mean R1: 72.35
+2026-10-26 10:31:07 - INFO - The best model is: /home/NPC/logs/20261026_094005_retrain/epoch2.pt, the R1 is: 73.7000
